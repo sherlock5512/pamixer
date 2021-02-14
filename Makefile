@@ -1,6 +1,6 @@
 LDLIBS   ?= -lpulse -lboost_program_options
 CXXFLAGS ?= -std=c++11 -Wall -Werror -Wextra -pedantic
-PREFIX   ?= /usr/local
+PREFIX   ?= 
 RM       ?= rm -f
 
 target   := pamixer
